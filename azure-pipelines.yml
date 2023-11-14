@@ -67,7 +67,7 @@ steps:
     environment: dev
     variables:
     - group: Release
-     - name: ServiceConnectionName
+    - name: ServiceConnectionName
       value: ServiceConnection-Mark-Cursus-RG01
     strategy:
       runOnce:
